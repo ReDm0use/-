@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+
+        <a href="index.html" class="logo">
+            SHOP
+        </a>
+
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html" class="active">Каталог</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="catalog">
+
+        <div class="container">
+
+            <h1>Каталог товаров</h1>
+
+            <div class="catalog-layout">
+
+                <aside class="filters">
+
+                    <h2>Фильтры</h2>
+
+                    <label>
+                        <input type="checkbox" value="laptop">
+                        Ноутбуки
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="phone">
+                        Смартфоны
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="headphones">
+                        Наушники
+                    </label>
+
+                </aside>
+
+                <div class="catalog-grid">
+
+                    <article class="card" data-category="laptop">
+
+                        <img src="./img/products/asus.jpg" alt="Ноутбук ASUS">
+
+                        <h3>
+                            <a href="product-asus.html">
+                                Ноутбук ASUS
+                            </a>
+                        </h3>
+
+                        <p>79 990 ₽</p>
+
+                    </article>
+
+                    <article class="card" data-category="phone">
+
+                        <img src="./img/products/iphone.jpg" alt="iPhone 15">
+
+                        <h3>
+                            <a href="product-iphone.html">
+                                iPhone 15
+                            </a>
+                        </h3>
+
+                        <p>99 990 ₽</p>
+
+                    </article>
+
+                    <article class="card" data-category="headphones">
+
+                        <img src="./img/products/airpods.jpg" alt="AirPods Pro">
+
+                        <h3>
+                            <a href="product-airpods.html">
+                                AirPods Pro
+                            </a>
+                        </h3>
+
+                        <p>19 990 ₽</p>
+
+                    </article>
+
+                    <article class="card" data-category="phone">
+
+                        <img src="./img/products/samsung-galaxy.jpg" alt="Samsung Galaxy">
+
+                        <h3>
+                            <a href="product-samsung.html">
+                                Samsung Galaxy
+                            </a>
+                        </h3>
+
+                        <p>74 990 ₽</p>
+
+                    </article>
+
+                    <article class="card" data-category="laptop">
+
+                        <img src="./img/products/macbook-pro.jpg" alt="MacBook Pro">
+
+                        <h3>
+                            <a href="product-macbook.html">
+                                MacBook Pro
+                            </a>
+                        </h3>
+
+                        <p>189 990 ₽</p>
+
+                    </article>
+
+                    <article class="card" data-category="headphones">
+
+                        <img src="./img/products/sony-wh1000xm5.jpg" alt="Sony WH-1000XM5">
+
+                        <h3>
+                            <a href="product-sony.html">
+                                Sony WH-1000XM5
+                            </a>
+                        </h3>
+
+                        <p>29 990 ₽</p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="./js/script.js"></script>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Интернет-магазин электроники</p>
+    </div>
+</footer>
+
+</body>
+</html>
